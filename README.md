@@ -5,6 +5,7 @@
 - **One-line Persona:** Giảng viên & Cán bộ bộ môn (quản lý lịch dạy, mở phiên QR điểm danh động 45s, đồng bộ Google Sheets) cùng Sinh viên Nguyễn Văn An (điểm danh nhanh qua Google SSO và theo dõi tỷ lệ chuyên cần tránh cấm thi).
 
 ## AI Tools & Links Used
+- **GitHub Repository:** [https://github.com/ngochan901/prm393-lab2](https://github.com/ngochan901/prm393-lab2)
 - **Figma Design File:** [PRM393 Lab 2 – FPT Attendance – MSSV](https://www.figma.com/design/WSs5fDFhGkez9FHZ00unad/PRM323-Lab-2-%25E2%2580%2593-FPT-Attendance-%25E2%2580%2593-MSSV?node-id=5-2&p=f&t=64UpgIKBLIRKm5Gh-0)
 - **Figma Prototype Link:** [Figma Interactive Prototype](https://www.figma.com/make/C1mMATOxXbnsmcGP7qAedV/Link-buttons-to-functions?p=f&t=ZtMtdaCP6rMN5hoh-0&preview-route=%2F%23dashboard)
 - **Google Stitch Project:** [Stitch Project #4183462632766005206](https://stitch.withgoogle.com/projects/4183462632766005206)
