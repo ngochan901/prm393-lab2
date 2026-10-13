@@ -189,8 +189,8 @@ Identify at least 5 concrete usability findings tied directly to specific screen
 - **Quyết định của sinh viên:** **CHẤP NHẬN (ACCEPTED)**.
 - **Lý do căn cứ:** Loại bỏ thao tác cuộn vô ích, hỗ trợ dùng 1 tay (One-thumb navigation) bằng Bottom Bar thay vì Drawer khó với tới góc trên bên trái.
 - **Minh chứng Trước / Sau (Evidence Files):**
-  - *Ảnh Trước (Before - Banner cồng kềnh, Drawer):* [`assets/stitch/scr02_home_dashboard.png`](../assets/stitch/scr02_home_dashboard.png)
-  - *Ảnh Sau (After - Header gọn, Card ưu tiên đầu, Bottom Nav):* [`assets/figma/S02 — Tổng quan giảng dạy.png`](<../assets/figma/S02 — Tổng quan giảng dạy.png>)
+  - *Ảnh Trước (Before - Banner cồng kềnh, Drawer):* [`assets/stitch/iter01_before.png`](../assets/stitch/iter01_before.png) (Gốc: `scr02_home_dashboard.png`)
+  - *Ảnh Sau (After - Header gọn, Card ưu tiên đầu, Bottom Nav):* [`assets/stitch/iter01_after.png`](../assets/stitch/iter01_after.png) (Figma Final: [`assets/figma/S02 — Tổng quan giảng dạy.png`](<../assets/figma/S02 — Tổng quan giảng dạy.png>))
 
 ---
 
@@ -211,8 +211,8 @@ Identify at least 5 concrete usability findings tied directly to specific screen
 - **Quyết định của sinh viên:** **CHẤP NHẬN (ACCEPTED)**.
 - **Lý do căn cứ:** Phục vụ trực tiếp Persona Thầy Nam, loại bỏ hoàn toàn lỗ hổng điểm danh hộ mà không cần sinh viên phải xếp hàng lên bục giảng.
 - **Minh chứng Trước / Sau (Evidence Files):**
-  - *Ảnh Trước (Before - QR tĩnh, không đếm ngược):* [`assets/stitch/scr03_session_detail.png`](../assets/stitch/scr03_session_detail.png)
-  - *Ảnh Sau (After - Dynamic QR 45s, đếm ngược, nút phóng to):* [`assets/figma/S09 — Điểm danh trực tiếp.png`](<../assets/figma/S09 — Điểm danh trực tiếp.png>)
+  - *Ảnh Trước (Before - QR tĩnh, không đếm ngược):* [`assets/stitch/iter02_before.png`](../assets/stitch/iter02_before.png) (Gốc: `scr03_live_qr_attendance.png` / `scr03_session_detail.png`)
+  - *Ảnh Sau (After - Dynamic QR 45s, đếm ngược, nút phóng to):* [`assets/stitch/iter02_after.png`](../assets/stitch/iter02_after.png) (Figma Final: [`assets/figma/S09 — Điểm danh trực tiếp.png`](<../assets/figma/S09 — Điểm danh trực tiếp.png>))
 
 ---
 
@@ -231,8 +231,8 @@ Identify at least 5 concrete usability findings tied directly to specific screen
 - **Quyết định của sinh viên:** **CHỈNH SỬA & CHẤP NHẬN (MODIFIED)**.
 - **Lý do căn cứ:** Bác bỏ việc AI tự ý lưu lịch; thay vào đó hiển thị banner cảnh báo đỏ rõ ràng, giữ nguyên toàn bộ thông tin môn học và đưa ra lựa chọn Phòng 203 / Slot khác để giảng viên tự tay chọn và bấm lưu.
 - **Minh chứng Trước / Sau (Evidence Files):**
-  - *Ảnh Trước (Before - Lịch dạy đơn thuần, không có form kiểm tra lỗi):* [`assets/stitch/scr05_schedule_calendar.png`](../assets/stitch/scr05_schedule_calendar.png)
-  - *Ảnh Sau (After - Form xếp lịch có nhánh xung đột S07-CONFLICT & gợi ý phục hồi):* [`assets/figma/S07 — Xếp lịch tiết học.png`](<../assets/figma/S07 — Xếp lịch tiết học.png>)
+  - *Ảnh Trước (Before - Form xếp lịch ban đầu chưa kiểm tra lỗi):* [`assets/stitch/iter03_before.png`](../assets/stitch/iter03_before.png) (Gốc: `scr03_create_schedule.png`)
+  - *Ảnh Sau (After - Form xếp lịch có nhánh xung đột S07-CONFLICT & gợi ý phục hồi):* [`assets/stitch/iter03_after.png`](../assets/stitch/iter03_after.png) (Figma Final: [`assets/figma/S07 — Xếp lịch tiết học.png`](<../assets/figma/S07 — Xếp lịch tiết học.png>))
 
 ---
 
