@@ -23,21 +23,37 @@
 | **Stitch Screenshots** | [`assets/stitch/`](assets/stitch/) |
 | **Figma Final Screen Exports** | [`assets/figma/`](assets/figma/) |
 | **Flutter Handoff Specification** | [`handoff/flutter-handoff.md`](handoff/flutter-handoff.md) |
-| **Figma Setup Step-by-Step Guide** | [`presentation/FIGMA_SETUP_GUIDE.md`](presentation/FIGMA_SETUP_GUIDE.md) |
-| **Slide Presentation Content (12 Slides)** | [`presentation/SLIDES.md`](presentation/SLIDES.md) |
-| **Live Demo Script & Q&A Checklist** | [`presentation/DEMO_GUIDE.md`](presentation/DEMO_GUIDE.md) |
 
 ---
 
-## Final Submission Checklist (8/8 Hoàn Thành)
+## Chi Tiết Triển Khai & Báo Cáo Sản Phẩm
 
-- [x] **1. README:** Đầy đủ chủ đề, persona một dòng, link Figma Design & Prototype, link Google Stitch, công cụ AI và bản đồ tài liệu chi tiết.
-- [x] **2. UX Analysis:** Persona Thầy Nguyễn Văn Nam có pain points & tiêu chí đo được (<30s); 3 User Flows có happy path, alternative path, error & recovery path cùng bảng ánh xạ màn hình S01–S10.
-- [x] **3. Final Screens:** Đầy đủ 10 màn hình UI cuối cùng khác nhau (vượt chuẩn tối thiểu 8 màn hình) được xuất tại `assets/figma/` và đối ứng `assets/stitch/`.
-- [x] **4. AI Design Log:** Lưu nguyên văn 10 prompt Stitch, 5 phát hiện phản biện UX của VisionCode AI Studio gắn với từng màn hình, 3 vòng lặp có ảnh Trước/Sau (`iter01` $\rightarrow$ `iter03`) và quyết định Accept/Modify.
-- [x] **5. Figma Architecture:** Cấu trúc đúng 6 trang theo thứ tự (`01 User Flow`, `02 Wireframe`, `03 Final UI`, `04 Design System`, `05 Components`, `06 Prototype`), chuẩn hóa design tokens và 9 nhóm component bắt buộc.
-- [x] **6. Interactive Prototype:** Đủ 3 flows hoàn chỉnh có thể bấm từ đầu đến cuối, dialog overlay (Overlay phóng to QR `S09-QR-OVERLAY`, Dialog xác nhận xuất Sheet `S10-CONFIRM-EXPORT`) và chuyển cảnh loading $\rightarrow$ kết quả.
-- [x] **7. Flutter Handoff:** Đầy đủ 6 mục chi tiết cho từng màn hình S01–S10 và 2 bảng mapping toàn cục (Tokens $\to$ ColorScheme/TextTheme, Components $\to$ Flutter Widgets).
-- [x] **8. Verification & Links:** Tất cả liên kết tài liệu Markdown, ảnh minh chứng trong `assets/figma/` và `assets/stitch/`, và link Figma/Stitch đều hoạt động chính xác.
+1. **Thông Tin & Điều Hướng (README)**
+   - Xác định rõ chủ đề ứng dụng FPT Attendance System (CAMPUS / STUDIO).
+   - Persona trọng tâm: Giảng viên Thầy Nguyễn Văn Nam (`namnv@fpt.edu.vn`) & Sinh viên Nguyễn Văn An (`SE190001`).
+   - Cung cấp đầy đủ đường dẫn truy cập Figma Design, Figma Prototype, Google Stitch và công cụ AI phản biện.
 
+2. **Tài Liệu Phân Tích UX (`ux/`)**
+   - [`ux/persona.md`](ux/persona.md): Chi tiết bối cảnh, mục tiêu, pain points và tiêu chí đo lường định lượng (<30s).
+   - [`ux/user-flow.md`](ux/user-flow.md): Sơ đồ cây Information Architecture, 3 sơ đồ User Flow chuẩn Mermaid (Happy Path, Alternative Path, Error & Recovery) và bảng ánh xạ toàn bộ màn hình S01–S10.
 
+3. **Giao Diện Hoàn Chỉnh (`assets/figma/` & `assets/stitch/`)**
+   - Đầy đủ 10 màn hình Final UI xuất từ Figma Page 03 tại [`assets/figma/`](assets/figma/).
+   - Đầy đủ 11 ảnh Stitch gốc tại [`assets/stitch/`](assets/stitch/) bao gồm ảnh kiểm thử độ co giãn responsive 412dp và 3 cặp ảnh vòng lặp Trước/Sau.
+
+4. **Nhật Ký Thiết Kế AI (`ai/`)**
+   - [`ai/ai-design-log.md`](ai/ai-design-log.md): Lưu trữ nguyên văn 10 prompt nhập vào Google Stitch.
+   - 5 phát hiện phản biện UX chuyên sâu từ VisionCode AI Studio dựa trên 10 Nielsen Heuristics và WCAG 2.1 AA.
+   - 3 vòng lặp có ý nghĩa (S02 - Điều hướng, S09 - Dynamic QR, S07 - Xung đột lịch) kèm quyết định Accept/Modify của sinh viên.
+
+5. **Cấu Trúc Figma 6 Trang Chuẩn Hóa**
+   - Xây dựng đúng thứ tự 6 trang: `01 User Flow`, `02 Wireframe`, `03 Final UI`, `04 Design System`, `05 Components`, `06 Prototype`.
+   - Hệ thống Design Tokens (Figma Variables) và 9 nhóm component có đầy đủ variants trạng thái.
+
+6. **Interactive Prototype**
+   - 3 user flows có thể tương tác xuyên suốt từ điểm bắt đầu đến điểm kết thúc.
+   - Tích hợp Modal / Dialog overlay (Overlay phóng to QR S09, Dialog xác nhận xuất Sheet S10) và hiệu ứng chuyển cảnh loading sang kết quả.
+
+7. **Bàn Giao Kỹ Thuật Flutter (`handoff/`)**
+   - [`handoff/flutter-handoff.md`](handoff/flutter-handoff.md): Bảng quy đổi Design Token sang Flutter (`ColorScheme`/`TextTheme`), Bảng Component sang Flutter Widgets.
+   - Đặc tả chi tiết 6 mục chuẩn hóa (Layout, Components, States, Interactions, Navigation, Constraints) cho từng màn hình S01–S10.
